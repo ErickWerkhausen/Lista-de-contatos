@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,700&family=Young+Serif&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Contatos</h1>
+    </header>
+    <div class="container">
+        <div class="boxAddContatos">
+            <div class="subBox">
+                <form class="AddContato" id="form-contato">
+                    <input type="text" required id="nome-contato" placeholder="Nome:">
+                    <input type="number" required id="numero-contato"  placeholder="telefone:">
+                    <button type="submit">Adicionar + </button>
+                </form>
+                <div class="AlertaDeErro">
+                    <p> O número de telefone deve conter no mínimo 9 caracteres </p>                
+                </div>
+                <table cellspacing="0" class="listaContatos">
+                    <thead>
+                        <tr>
+                            <th>Nomes:</th>
+                            <th>telefone:</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tbody-Contato">
+                        <tr>
+                            <td>---</td>
+                            <td>---</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+
+</html>

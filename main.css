@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Young Serif', serif;
+
+}
+
+body {
+    background-color: #44433F;
+    
+}
+
+header {
+    display: flex;
+    align-items: center;
+    height: 83px;
+    background-color: #06060678;
+}
+
+header h1 {
+    margin: 0 20px;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    color: white;
+}
+
+.container .boxAddContatos {
+    overflow: auto;
+    width: 50%;
+    height: 500px;
+    margin: 30px;
+    border-radius: 20px;
+    background-color: #06060678;
+}
+
+
+
+.subBox {
+    margin: 20px 20px;
+}
+
+form {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+form input,
+form button {
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 1200px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+form button {
+    background-color: #60BD91;
+    cursor: pointer;
+}
+
+.AlertaDeErro {
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 15px;
+    background-color: red;
+    font-family: 'Young Serif', serif;
+    display: none;
+}
+.AlertaDeErro p {
+    text-align: center;
+}
+
+
+
+table {
+
+    width: 100%;
+    border-top: 2px solid white;
+    border-right: 2px solid white;
+    border-left: 2px solid white;
+}
+
+table tr {
+    padding: 10px;
+}
+
+table th,
+table td {
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid white;
+}
+
+
+table .buttonExcluir button {
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+table .buttonExcluir {
+    padding: 0;
+    text-align: center;
+}
+
+.buttonExcluir button {
+    background-color: #aa3b3b;
+}
