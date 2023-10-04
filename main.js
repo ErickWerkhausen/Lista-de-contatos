@@ -52,6 +52,7 @@ inputTelefoneContato.addEventListener('keyup', function (e) {
         inputTelefoneContato.style.border= '2px solid red';
     } else {
         inputTelefoneContato.classList.remove('error');
+        inputTelefoneContato.style.border= 'none';
         document.querySelector('.AlertaDeErro').style.display = '';
     }
 })
